@@ -1,0 +1,18 @@
+{
+  "name": "mobilestore",
+  "version": "1.0.0",
+  "description": "mobile store ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "keywords": [
+    "mobile",
+    "store"
+  ],
+  "author": "Thirumalai Perumal <thirumalai.perumal2@mindtree.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

@@ -1,0 +1,269 @@
+body {
+    background: #acc234;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  span {
+    color: #fff;
+  }
+}
+h2 {  
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+ }
+h3 { margin: 0 0  .5em 0; font-size: 1.5em; font-weight: 700; }
+
+ul {
+  margin:0; padding: 0;
+  li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+}
+p {
+  margin: 0 0  1em 0;
+}
+
+a { color: #34404b;}
+a:hover { color: #ff5912 } 
+
+.loadAll {
+  background-color: #feffff;
+  width: 100%;
+  color: #47526B;
+  height: 60px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 60px;
+}
+a.btn { font-size: 1.2em; text-decoration: none; background-color: #c54712; color: #fff; padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover {background-color: #ab3d0f}
+
+button {
+  background: #c54712;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+// top header
+
+.tophead {
+  justify-content: flex-end;
+  display: flex; 
+  ul {
+    li {
+      display: inline-block; 
+      a {
+        color: #fff
+      }
+    }
+  }
+}
+header {
+      background: #fff;
+      height: 90px;
+      a {
+        &.logo {
+          z-index: 1;
+          position: relative;
+          display: flex;
+          width: 100%;
+          height: 100%;
+          background: url(../images/logo.png) no-repeat 50% 50%;
+          background-size: auto;
+          top: 0px;
+        }
+         }
+    }
+// sliders
+  .mobilesliders {
+    img {
+      width: 100%;
+    }
+  }
+  
+// new Arrivals 
+.newarrivals {
+  padding: 10px;
+  .newArriavalItem {
+    aside {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      .actionContainer {
+        justify-content: space-between;
+        display: flex;
+      }
+    }
+  }
+}
+
+// Best Sales
+
+.bestsales {
+  padding: 10px;
+  .bestsaleItems {
+    aside {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      .actionContainer {
+        align-content: space-between;
+      }
+    }
+  }
+}
+
+//  user reviews
+
+.userreviews {
+  padding: 10px;
+  .userreviewItems {
+    aside {
+      background: #fff;
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      .actionContainer {
+        align-content: space-between;
+      }
+    }
+  }
+}
+// subscribe
+.newssubscirbe {
+  background: #fff;
+  padding: 10px;
+  margin: 10px;
+    span {
+      text-transform: uppercase;
+      color: #f66729;
+      font-weight: 700;
+    }
+
+input[type=text]
+{
+  border: 0px;
+  width: 67%;
+  padding: 3px 0 3px 30px;
+  height: 30px;
+  background: url(../images/email.png) no-repeat 10px 50%;
+}
+
+input[type=text]:focus
+{
+	outline: 0;
+}
+
+input[type=submit]
+{
+	border: 0px;
+	background: none;
+	background-color: #f66729;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	border-top-right-radius: 5px;
+	-moz-border-radius-top-right: 5px;
+	-webkit-border-radius-top-right: 5px;
+	border-bottom-right-radius: 5px;
+	-moz-border-radius-bottom-right: 5px;
+	-webkit-border-radius-bottom-right: 5px;
+        cursor:pointer;
+}
+
+}
+// Navigation
+nav {
+    background: #fff;
+    margin: 10px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+
+        li {
+          list-style-type: none;
+          padding: 10px;
+          border: 1px solid #bbc887;
+
+          a {
+          color: #34404b;
+          padding: 10px 20px; 
+          text-decoration: none;
+        }
+      }
+    }
+
+}
+// nav::after {content: ''; display: block; clear: both;}
+// footer
+footer {
+  background: #fff;
+  padding: 10px;
+  .footerLinks {
+
+ display: none;
+ }
+  .payments {
+    h3{
+      font-size: 16px;
+      color: #c54712;
+  }
+ }
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    background: #fff;
+    height: 90px;
+    a {
+      &.logo {
+        z-index: 1;
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background: url(../images/logo.png) no-repeat 0% 50%;
+        background-size: auto;
+        top: 0px;
+      }
+       }
+  }
+ .newarrivals, .bestsales, .userreviews, .newssubscirbe, nav{
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+  .newarrivals .newArriavalItem, .bestsales .bestsaleItems, .userreviews .userreviewItems {
+    display: flex;
+    aside {
+      width: 225px;
+      margin-right: 10px;
+    }
+  }
+
+}

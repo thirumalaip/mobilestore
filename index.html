@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta http-quiv="Content-Type" content="text/html" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Mobile Shop</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- <link rel="stylesheet" type="text/css" href="style.css" media="screen, handheld" />
+<link rel="stylesheet" type="text/css" href="enhanced.css" media="screen  and (min-width: 40.5em)" /> -->
+  <!--[if (lt IE 9)&(!IEMobile)]>
+<link rel="stylesheet" type="text/css" href="enhanced.css" />
+<![endif]-->
+</head>
+
+<body>
+  <div id="page">
+    <div class="tophead">
+      <ul class="fa-ul">
+         <li><a href="#" class="search"><i class="fa fa-search"></i></a></li>
+        <li><a href="#" class="myaccount"><i class="fa fa-user-circle-o"></i></a></li>
+        <li><a href="#" class="cart"><i class="fa fa-cart-plus"></i></a></li>
+      </ul>
+    </div>
+    <header>
+      <a class="logo" title="Mobile Store" href="#"></a>
+    </header>
+    <section class="sliders">
+      <div class="mobilesliders">
+        <div><img src="images/carosuel.png" alt="slider1" /></div>
+        <div><img src="images/carosuel.png" alt="slider1" /></div>
+      </div>
+    </section>
+    <section class="newarrivals">
+      <h1><span>New</span> Arriavals</h1>
+      <h2>Mobile phones from the top brands are avilable at the most competitive prices</h2>
+      <div class="newArriavalItem"></div>
+      <div class="loadAll"><h3><a href ='#'>Load All</a></h3></div>
+    </section>
+    <section class="bestsales">
+        <h1><span>Best</span> Sales</h1>
+        <h2>Find out best sellers collections</h2>
+        <div class="bestsaleItems"></div>
+    </section>
+    <section class="userreviews">
+        <h1><span>User</span> Reviews</h1>
+        <h2>Find out best sellers collections</h2>
+        <div class="userreviewItems"></div>
+    </section>
+    <section class="newssubscirbe">
+      <div><span>Newsletter</span> subscirbe now to get all news andspecial offers</div>
+      <div class="subscribeText">
+				<form class="subscribeText-form">
+					<input type="text" placeholder="type your email here...">
+					<input type="submit" value="Subscribe">
+				</form>
+			</div>
+     </section>
+    <nav>
+      <ul>
+        <li> <h1><a title='Home' href="#">Home</a></h1></li>
+        <li> <h1><a title='Mobiles' href="#">Mobiles</a></h1></li>
+        <li> <h1><a title='Hot Deals' href="#">Hot Deals</a></h1></li>
+        <li> <h1><a title='About' href="#">About</a></h1></li>
+        <li> <h1><a title='Contact' href="#">Contact</a></h1></li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="footerLinks">
+        <ul>
+          <li>About Us</li>
+          <li>Contact Us</li>
+          <li>Customer Support</li>
+        </ul>
+        <ul>
+          <li>Subscribe</li>
+          <li>Terms and Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+        <ul><li>Subscribe</li>
+          <li>Terms and Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="payments">
+        <h3>We support all these payments</h3>
+        <img src="images/paymenticons.png" alt="payments" />
+      </div>
+    </footer>
+    
+  </div>
+  <script src="script/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="script/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $('.mobilesliders').slick({
+        autoplay: true,
+        dots: true,
+        arrows: false,
+        cssEase: 'ease-out',
+        speed: 1000,
+        autoplaySpeed: 4000
+      });
+    })
+  </script>
+</body>
+
+</html>
+
+

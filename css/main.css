@@ -1,0 +1,207 @@
+body {
+  background: #acc234;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin: 0;
+  padding: 0; }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase; }
+  h1 span {
+    color: #fff; }
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0; }
+
+h3 {
+  margin: 0 0  .5em 0;
+  font-size: 1.5em;
+  font-weight: 700; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+  ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; }
+
+p {
+  margin: 0 0  1em 0; }
+
+a {
+  color: #34404b; }
+
+a:hover {
+  color: #ff5912; }
+
+.loadAll {
+  background-color: #feffff;
+  width: 100%;
+  color: #47526B;
+  height: 60px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 60px; }
+
+a.btn {
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: #c54712;
+  color: #fff;
+  padding: 4px 15px;
+  transition: background-color .5s; }
+
+a.btn:hover {
+  background-color: #ab3d0f; }
+
+button {
+  background: #c54712;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase; }
+
+.tophead {
+  justify-content: flex-end;
+  display: flex; }
+  .tophead ul li {
+    display: inline-block; }
+    .tophead ul li a {
+      color: #fff; }
+
+header {
+  background: #fff;
+  height: 90px; }
+  header a.logo {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: url(../images/logo.png) no-repeat 50% 50%;
+    background-size: auto;
+    top: 0px; }
+
+.mobilesliders img {
+  width: 100%; }
+
+.newarrivals {
+  padding: 10px; }
+  .newarrivals .newArriavalItem aside {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center; }
+    .newarrivals .newArriavalItem aside .actionContainer {
+      justify-content: space-between;
+      display: flex; }
+
+.bestsales {
+  padding: 10px; }
+  .bestsales .bestsaleItems aside {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center; }
+    .bestsales .bestsaleItems aside .actionContainer {
+      align-content: space-between; }
+
+.userreviews {
+  padding: 10px; }
+  .userreviews .userreviewItems aside {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center; }
+    .userreviews .userreviewItems aside .actionContainer {
+      align-content: space-between; }
+
+.newssubscirbe {
+  background: #fff;
+  padding: 10px;
+  margin: 10px; }
+  .newssubscirbe span {
+    text-transform: uppercase;
+    color: #f66729;
+    font-weight: 700; }
+  .newssubscirbe input[type=text] {
+    border: 0px;
+    width: 67%;
+    padding: 3px 0 3px 30px;
+    height: 30px;
+    background: url(../images/email.png) no-repeat 10px 50%; }
+  .newssubscirbe input[type=text]:focus {
+    outline: 0; }
+  .newssubscirbe input[type=submit] {
+    border: 0px;
+    background: none;
+    background-color: #f66729;
+    color: #fff;
+    float: right;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    -moz-border-radius-top-right: 5px;
+    -webkit-border-radius-top-right: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    -webkit-border-radius-bottom-right: 5px;
+    cursor: pointer; }
+
+nav {
+  background: #fff;
+  margin: 10px; }
+  nav ul {
+    list-style: none;
+    margin: 0; }
+    nav ul li {
+      list-style-type: none;
+      padding: 10px;
+      border: 1px solid #bbc887; }
+      nav ul li a {
+        color: #34404b;
+        padding: 10px 20px;
+        text-decoration: none; }
+
+footer {
+  background: #fff;
+  padding: 10px; }
+  footer .footerLinks {
+    display: none; }
+  footer .payments h3 {
+    font-size: 16px;
+    color: #c54712; }
+
+@media screen and (min-width: 1024px) {
+  header {
+    background: #fff;
+    height: 90px; }
+    header a.logo {
+      z-index: 1;
+      position: relative;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      background: url(../images/logo.png) no-repeat 0% 50%;
+      background-size: auto;
+      top: 0px; }
+  .newarrivals, .bestsales, .userreviews, .newssubscirbe, nav {
+    max-width: 1024px;
+    margin: 0 auto; }
+  .newarrivals .newArriavalItem, .bestsales .bestsaleItems, .userreviews .userreviewItems {
+    display: flex; }
+    .newarrivals .newArriavalItem aside, .bestsales .bestsaleItems aside, .userreviews .userreviewItems aside {
+      width: 225px;
+      margin-right: 10px; } }
