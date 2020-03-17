@@ -1,0 +1,45 @@
+
+63 84 47 44 18 - pavi 
+
+
+About Us
+Contact Us
+Customer Support
+Subscribe
+Terms and Conditions
+Privacy Policy
+
+task
+
+1. popup onclick image
+2. data should retrive from json -image path, alt text, heading, description
+3. create carousal
+4. load all click
+5. navigation menu in bootm
+6. wcag level aa
+7. language choose option english | Arabic
+
+1. structure html - done
+2. tophead -done
+3. header
+4. herobanner --done
+5. new arriaval --in progress
+    --Load All
+    --image, title, notify me
+
+7. Best Sales
+	image, title, stars, add to cart
+8. user reviews
+	image, link
+
+9. newsletter subscribe
+
+10. footer
+	text, card icon
+
+
+
+
+
+
+
